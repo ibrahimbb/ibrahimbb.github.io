@@ -27,9 +27,11 @@ url: "https://ibrahimbb.github.io" # the base hostname & protocol for your site,
 github_username:  ibrahimbb
 
 # Build settings
-theme: minima
+# theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
