@@ -52,3 +52,32 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+#blog-settings
+paginate:      10
+paginate_path: '/blog/:num/'
+
+#personal
+author:
+  name:  İbrahim Bağrıyanık
+  email: ibrahim.bagriyanikb@gmail.com
+  about: |
+    Hi, I'm İbrahim.
+  social:
+    email: ibrahim.bagriyanikb@gmail.com
+    github: ibrahimbb
+    linkedin: ibrahimbbagriyanik
+    
+#navigation
+defaults:
+  - scope:
+      path: blog/index.html
+    values:
+      menu: true
+      order: 1
+  - scope:
+      path: about/about.md
+    values:
+      menu: true
+      order: 2
+
