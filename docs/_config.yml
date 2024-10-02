@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ibrahim's Portfolio Website
-email: ibrahim.bagriyanikb@gmail.com
+title: Ibrahim Bagriyanik
 description: >- # this means to ignore newlines until "baseurl:"
-  Ibrahim Bagriyanik's personal Github Page for portfolio. 
+  Personal Github Page for blog posts and project showcase. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ibrahimbb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ibrahimbb
+homepage: about
 
 # Build settings
-# theme: jekyll-theme-hydejack
+#theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 plugins:
   - jekyll-feed
@@ -60,11 +60,9 @@ paginate_path: '/blog/:num/'
 #personal
 author:
   name:  İbrahim Bağrıyanık
-  email: ibrahim.bagriyanikb@gmail.com
   about: |
     Hi, I'm İbrahim.
   social:
-    email: ibrahim.bagriyanikb@gmail.com
     github: ibrahimbb
     linkedin: https://www.linkedin.com/in/ibrahimbagriyanik/
     

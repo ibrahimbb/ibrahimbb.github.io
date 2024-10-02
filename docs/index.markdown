@@ -5,3 +5,7 @@
 layout: home
 cover: true
 ---
+
+Welcome to my blog/portfolio. To learn about me, please visit [About page](/about).
+
+To read my blog posts, please visit [Blog page](/blog)
