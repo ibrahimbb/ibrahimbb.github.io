@@ -61,7 +61,7 @@ paginate_path: '/blog/:num/'
 author:
   name:  İbrahim Bağrıyanık
   about: |
-    Hi, I'm İbrahim.
+    Hi, I'm Ibrahim. My interests are embedded systems and Linux kernel. I write about my interests in my spare time.
   social:
     github: ibrahimbb
     linkedin: https://www.linkedin.com/in/ibrahimbagriyanik/
